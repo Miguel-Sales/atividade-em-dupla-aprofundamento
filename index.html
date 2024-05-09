@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,7 @@
 </head>
 <body>
     <nav>
+        <img id="img-logo" src="img/logo-empresa.png" alt="">
         <div class="nav-links">
             <ul>
                 <li><a href="#id-secao1">Seção 1</a></li>
@@ -41,5 +42,139 @@
     </footer>
 
 
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Atividade 8</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #FF914D;
+            font-family: system-ui;
+        }
+        
+        nav {
+            background-color: black;
+            height: 120px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        #img-logo {
+            height: 130px;
+        }
+        
+        nav .nav-links ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        nav .nav-links ul li a {
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            padding: 5px;
+        }
+        
+        nav .nav-links li {
+            padding: 15px;
+        }
+        
+        nav .nav-login a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+        }
+        
+        a:hover {
+            background-color: #FF914D;
+            border-radius: 10px;
+        }
+        
+        .secao {
+            border: solid 2px aliceblue;
+            height: 100%;
+        }
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        form {
+            background-color: gainsboro;
+            border-radius: 4px;
+            width: 320px;
+            margin: auto;
+            display: block;
+            margin-top: 200px;
+        }
+        
+        input {
+            width: 90%;
+            padding: 6px;
+            margin-bottom: 8px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        
+        input[type=radio] {
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <img id="img-logo" src="img/logo-empresa.png" alt="">
+        <div class="nav-links">
+            <ul>
+                <li><a href="#id-secao1">Seção 1</a></li>
+                <li><a href="#id-secao2">Seção 2</a></li>
+                <li><a href="#id-secao3">Seção 3</a></li>
+                <li><a href="#id-secao4">Seção 4</a></li>
+            </ul>
+        </div>
+        <div class="nav-login">
+            <a href="login.html">Entrar</a>
+        </div>
+    </nav>
+    <div id="id-secao1" class="secao">
+        <h1>Seção 1</h1>
+        <p>Conteúdo da seção 1</p>
+    </div>
+    <div id="id-secao2" class="secao">
+        <h1>Seção 2</h1>
+        <p>Conteúdo da seção 2</p>
+    </div>
+    <div id="id-secao3" class="secao">
+        <h1>Seção 3</h1>
+        <p>Conteúdo da seção 3</p>
+    </div>
+    <div id="id-secao4" class="secao">
+        <h1>Seção 4</h1>
+        <p>Conteúdo da seção 4</p>
+    </div>
+    <footer>
+        <p>Aqui temos um footer fixo!</p>
+    </footer>
 </body>
 </html>

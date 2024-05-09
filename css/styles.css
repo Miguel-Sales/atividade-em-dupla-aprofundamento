@@ -1,22 +1,26 @@
-
 body,
-html{
-    margin: 0; /* remover qualquer margem do corpo da página */
-    padding: 0; /* remover qualquer espaçamento do corpo da página */
-    height: 100%; /* definir a altura da página para utilizar toda a janela */
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #FF914D;
+    font-family: system-ui;
 }
 
-nav{
+nav {
     background-color: black;
-    padding: 20px;
+    height: 120px;
     color: white;
-    display: flex;    /* torna os itens flexiveis */
-    justify-content: space-between;  /* cria espaçamento entre os itens */
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
-nav .nav-links ul{
-    margin-right: 20px;
+#img-logo {
+    height: 130px;
+}
+
+nav .nav-links ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -24,53 +28,51 @@ nav .nav-links ul{
     align-items: center;
 }
 
-nav .nav-links ul li a{
+nav .nav-links ul li a {
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+nav .nav-links li {
     padding: 15px;
 }
 
-nav .nav-login{
-    background-color: black;
-}
-
-nav .nav-login a{
+nav .nav-login a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 
-a:hover{
-    background-color: darkgray;;
+a:hover {
+    background-color: #FF914D;
+    border-radius: 10px;
 }
 
-.secao{
+.secao {
     border: solid 2px aliceblue;
     height: 100%;
 }
 
-footer{
+footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
-    /* permanecer fixo independente da rolagem da pag */
-    /* position: fixed; */
-    /* tenha 0 de espaçamento inferior, assim fica no fim da pag */
-    bottom: 0;
-    /* largura do footer */
     width: 100%;
 }
 
-form{
+form {
     background-color: gainsboro;
-    border-radius: solid 4px white;
+    border-radius: 4px;
     width: 320px;
     margin: auto;
     display: block;
     margin-top: 200px;
 }
 
-input{
+input {
     width: 90%;
     padding: 6px;
     margin-bottom: 8px;
@@ -78,8 +80,6 @@ input{
     border-radius: 5px;
 }
 
-input[type=radio]
-{
+input[type=radio] {
     width: auto;
 }
-
