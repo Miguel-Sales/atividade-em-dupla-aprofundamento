@@ -84,3 +84,54 @@ input[type=radio] {
     width: auto;
 }
 
+#id-secao1 h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-lancamentos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.img-container p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#id-secao2 h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-calcados{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+#id-secao3 h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-acessorios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
