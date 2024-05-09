@@ -110,3 +110,7 @@ input[type=radio]
    margin-left: 105px;
    margin-top: 10px;
 }
+
+.login-footer{
+    position: fixed;
+}
