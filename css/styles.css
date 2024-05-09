@@ -1,4 +1,4 @@
-/* body,
+body,
 html {
     margin: 0;
     padding: 0;
@@ -8,9 +8,8 @@ html {
 }
 
 nav {
-    background-color: #FF914D;
+    background-color: #ffa46b;
     height: 120px;
-    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -29,10 +28,10 @@ nav .nav-links ul {
 }
 
 nav .nav-links ul li a {
-    color: white;
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 5px;
+    padding: 15px;
 }
 
 nav .nav-links li {
@@ -41,8 +40,10 @@ nav .nav-links li {
 
 nav .nav-login a {
     text-decoration: none;
-    color: white;
+    color: black;
     text-transform: uppercase;
+    padding: 15px;
+    margin-right: 10px;
 }
 
 a:hover {
@@ -51,16 +52,15 @@ a:hover {
 }
 
 .secao {
-    border: solid 2px aliceblue;
+    border: solid 2px white;
     height: 100%;
 }
 
 footer {
-    background-color: #FF914D;
+    background-color: #ffa46b;
     color: white;
     text-align: center;
     padding: 20px;
-    width: 100%;
 }
 
 form {
@@ -83,92 +83,4 @@ input {
 input[type=radio] {
     width: auto;
 }
- */
 
- body,
-html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    background-color: #FF914D;
-    font-family: system-ui;
-}
-
-nav {
-    background-color: black;
-    height: 120px;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#img-logo {
-    height: 130px;
-}
-
-nav .nav-links ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-}
-
-nav .nav-links ul li a {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 5px;
-}
-
-nav .nav-links li {
-    padding: 15px;
-}
-
-nav .nav-login a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
-a:hover {
-    background-color: #FF914D;
-    border-radius: 10px;
-}
-
-.secao {
-    border: solid 2px aliceblue;
-    height: 100%;
-}
-
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-
-form {
-    background-color: gainsboro;
-    border-radius: 4px;
-    width: 320px;
-    margin: auto;
-    display: block;
-    margin-top: 200px;
-}
-
-input {
-    width: 90%;
-    padding: 6px;
-    margin-bottom: 8px;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-input[type=radio] {
-    width: auto;
-}
