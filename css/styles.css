@@ -53,21 +53,25 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
-    /* permanecer fixo independente da rolagem da pag */
-    /* position: fixed; */
-    /* tenha 0 de espaçamento inferior, assim fica no fim da pag */
     bottom: 0;
-    /* largura do footer */
     width: 100%;
 }
 
+/* -----------------------------------LOGIN------------------------------------- */
+
+body{
+    background-color: #FF914D;
+}
+
 form{
-    background-color: gainsboro;
+    background-color: white;
     border-radius: solid 4px white;
-    width: 320px;
+    width: 420px;
+    height: 505px;
     margin: auto;
     display: block;
     margin-top: 200px;
+    border-radius: 10px;
 }
 
 input{
@@ -83,3 +87,26 @@ input[type=radio]
     width: auto;
 }
 
+.usuario{
+    margin-bottom: 20px;
+}
+
+.senha{
+    margin-bottom: 20px;
+}
+
+.not{
+    margin-left: 40px;
+}
+
+.botao{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo_projeto{
+   margin-left: 105px;
+   margin-top: 10px;
+}
