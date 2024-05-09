@@ -56,13 +56,6 @@ a:hover {
     height: 100%;
 }
 
-footer {
-    background-color: #ffa46b;
-    color: white;
-    text-align: center;
-    padding: 20px;
-}
-
 form {
     background-color: gainsboro;
     border-radius: 4px;
@@ -134,4 +127,21 @@ input[type=radio] {
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
+}
+
+#id-secao4 h1{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.img-bermudas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+#footer-index{
+    background-color: #ffa46b;
+    height: 90px;
 }
