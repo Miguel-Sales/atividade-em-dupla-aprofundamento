@@ -114,3 +114,16 @@ input[type=radio]
 .login-footer{
     position: fixed;
 }
+
+/* -----------------------------------------------SEÇÃO 2------------------------------------------- */
+
+#id-secao2{
+    font-family: system-ui;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+
+   
